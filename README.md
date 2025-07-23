@@ -10,24 +10,6 @@ This project predicts the **salary of an employee** based on their **years of ex
 📦 **Model Deployment**: Pickle 
 🌐 **Web App**: Lightweight Flask application to take user input and return predicted salary
 
-
-
-## 📁 Project Structure
-
-
-flask-salary-predictor/
-│
-├── model.py            # Script to train and save the model
-├── model.pkl           # Serialized machine learning model (saved with pickle)
-├── app.py              # Flask web app to serve the model
-├── templates/
-│   └── index.html      # Frontend HTML form
-├── static/
-│   └── style.css       # (Optional) Styling for HTML
-├── requirements.txt    # List of dependencies
-└── README.md           # Project documentation
-
-
 ## 📈 Model
 
 * `model.py` reads the CSV data, trains a **Linear Regression** model, and saves it as `model.pkl`.
